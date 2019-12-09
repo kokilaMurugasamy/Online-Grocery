@@ -1,0 +1,38 @@
+
+<h1>Order summary</h1>
+<div >
+<p>You have placed this order on {{order.datePlaced | date }}</p>
+
+    <div class="table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Product</th>
+          <th>Quantity</th>
+           <th  class="text-right" style="width:200px">Total Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <ng-container *ngIf="order.items">
+        <tr *ngFor="let orders of order.items">
+          <td>
+            <div [style.backgroundImage]="'url('+ orders.product.imageUrl +')'" class="thumbnail"></div>
+          </td>
+          <td>{{orders.product.title}}</td>
+          <td>{{orders.quantity}}</td>
+          <td class="text-right">{{orders.totalPrice | currency:'USD':true}}</td>
+        </tr>
+        </ng-container>
+      </tbody>
+
+    </div>
+
+
+</div>
+
+
+
+
+
+
+
