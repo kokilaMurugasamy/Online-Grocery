@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles-variable";
+@import '~bootstrap/dist/css/bootstrap.css';
+@import '~font-awesome/css/font-awesome.css';
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+body{
+  padding-top: 80px;
+  height: 100px;
+  background: -webkit-linear-gradient(left, #2F2727, green, #2F2727, green, #2F2727);
+
+  width: 100%;
+  margin : 0 auto;
+
+}
+
+.dropdown-menu.show {
+  background-color:lightgreen;
+}
+.dropdown-item {
+ background-color:lightgreen;
+
+}
+$primary-color: green;
+
+.navbar-light .navbar-brand {
+  color: $primary-color;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: $primary-color;
+}
+.list-group-item.active {
+  background-color:$primary-color;
+  border-color:$primary-color;
+}
+.navbar {
+border: 1px solid gainsboro;
+background-color: rgba(172, 255, 47, 0.562);
+background-image:
+  radial-gradient(
+    circle at top right,
+    circle at bottom left,
+    lightgreen,
+
+  );
+}
+.list-group-item {
+  border: 1px solid green;
+  background-color:lightgreen;
+}
+a {
+  color: rgb(34, 39, 34);
+}
+a :active {
+  color: darkgreen;
+}
+.card {
+
+  border: 1px solid green;
+  border-radius: 0.25rem;
+  width:100%;
+
+}
+
+.card-body {
+ background-color: lightgreen;
+
+}
+
+.btn-primary {
+  color: #fff;
+  background-color:green;
+  border-color:green;
+}
+.btn-secondary:hover {
+  color: #fff;
+  background-color: lightgreen;
+  border-color:lightgreen;
+}
+.btn-secondary {
+  color: #fff;
+  background-color: green;
+  border-color: green;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .list-group-item {
+    width: 50%;
+  }
+ }
+
+
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
