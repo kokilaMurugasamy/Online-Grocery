@@ -1,0 +1,39 @@
+
+
+.dropdown-toggle{
+  cursor: pointer;
+}
+
+a.navbar-brand {
+  position: absolute;
+  font-size: 30px;
+}
+
+a.navbar-brand:hover {
+  color: yellowgreen;
+  transform: rotate(180deg);
+}
+
+.navbar-collapse .nav-item:first-child{
+  margin-left: 40px;
+}
+
+.navbar-brand{
+
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+@keyframes example {
+  0%   { font-size:200px;}
+  100% { font-size:20px;}
+}
+
+
+
+
+
+
+
+
