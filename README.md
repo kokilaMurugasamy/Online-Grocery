@@ -1,5 +1,6 @@
-# OnlineGrocery
+# Angular8 - ShoppingCart + Bootstrap + Firebase
 
+Developing a ShoppingCart (Ecommerce) Application using Angular8
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
 ## Development server
