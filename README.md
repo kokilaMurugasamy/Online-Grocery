@@ -6,13 +6,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Functionalities
   1. User Registration using Firebase Authentication (using Email/Password | Google Authentication )
+  
   2. CRUD Operations like
      •	User can add product to their  cart.
+     
      •	Admin can add product to the product list
+     
       •	Admin can edit/delete the product.
+      
       •	User can edit product to their cart.
+      
       •	User checkout the purchase product.
+      
       •	User can update the shipping address information.
+      
      •	User can view order history information.
    
   3. Security
