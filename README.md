@@ -23,6 +23,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
      •	User can view order history information.
    
   3. Security
+  
     Implmented Authentication and Authorization
     
 ## Tools and Technologies
