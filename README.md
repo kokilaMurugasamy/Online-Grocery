@@ -2,6 +2,8 @@
 
 Developing a ShoppingCart (Ecommerce) Application using Angular 7.
 
+Live Demo : https://online-grocery-38ac9.firebaseapp.com/
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
 
 ## Functionalities
