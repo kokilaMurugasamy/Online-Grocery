@@ -69,7 +69,7 @@ This Projects covers all fundamentals of Angular
 
   4. Clone the repository and run npm install if you use npm as package manager or yarn install if you use yarn as package manager.
 
-  5. Angular + Firebase Tutorial - Angular + Firebase + Typescript — Step by step tutorial
+  5. Angular + Firebase Tutorial - Angular + Firebase + Typescript — Step by step tutorial https://medium.com/factory-mind/angular-firebase-typescript-step-by-step-tutorial-2ef887fc7d71
 
   6. Activate Firebase Authentication Providers
 
@@ -109,7 +109,8 @@ This Projects covers all fundamentals of Angular
                     ...
         Now you can able to access the Admin Privileges like Creating Product, Removing Product, etc..
 
-        Run the Server.
+
+  10. Run the Server.
 
 
 ## Development server
