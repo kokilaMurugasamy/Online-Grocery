@@ -8,6 +8,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   1. User Registration using Firebase Authentication (using Email/Password | Google Authentication )
   
   2. CRUD Operations like
+  
      •	User can add product to their  cart.
      
      •	Admin can add product to the product list
