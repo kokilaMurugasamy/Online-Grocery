@@ -34,7 +34,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   
   •	Database : Angular Firebase.
   
-This Projects covers all fundamentals of Angular
+### This Projects covers all fundamentals of Angular
 
   •	Multiple Modules
   
