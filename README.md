@@ -58,9 +58,13 @@ This Projects covers all fundamentals of Angular
 1. Angular CLI
 
  Download Angular CLI
+ https://cli.angular.io/
+ 
   NodeJs
 
 Download Nodejs
+https://nodejs.org/en/download/
+
 Package Manager - NPM / Yarn
 
 Clone the repository and run npm install if you use npm as package manager or yarn install if you use yarn as package manager.
