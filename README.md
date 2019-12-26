@@ -27,18 +27,31 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     
 ## Tools and Technologies
   •	Technology: HTML5, Bootstrap, CSS, Angular-7, Firebase, Typescript, NPM, Progressive Web Application.
+  
   •	Database : Angular Firebase.
+  
 This Projects covers all fundamentals of Angular
+
   •	Multiple Modules
+  
   •	Components, Template and DataBinding
+  
   •	Form Validation
+  
   •	HttpClient
+  
   •	Animations
+  
   •	Dependency Injection
+  
   •	Routing & Navigation
+  
   •	Service Workers
+  
   •	Pipes
+  
   •	Gaurds etc..
+  
 
 
 
