@@ -1,7 +1,39 @@
-# Angular8 - ShoppingCart + Bootstrap + Firebase
+# Angular7 - ShoppingCart + Bootstrap + Firebase
 
-Developing a ShoppingCart (Ecommerce) Application using Angular8
+Developing a ShoppingCart (Ecommerce) Application using Angular 7.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+
+## Functionalities
+  1. User Registration using Firebase Authentication (using Email/Password | Google Authentication )
+  2. CRUD Operations like
+     •	User can add product to their  cart.
+     •	Admin can add product to the product list
+      •	Admin can edit/delete the product.
+      •	User can edit product to their cart.
+      •	User checkout the purchase product.
+      •	User can update the shipping address information.
+     •	User can view order history information.
+   
+  3. Security
+    Implmented Authentication and Authorization
+    
+## Tools and Technologies
+  •	Technology: HTML5, Bootstrap, CSS, Angular-7, Firebase, Typescript, NPM, Progressive Web Application.
+  •	Database : Angular Firebase.
+This Projects covers all fundamentals of Angular
+  •	Multiple Modules
+  •	Components, Template and DataBinding
+  •	Form Validation
+  •	HttpClient
+  •	Animations
+  •	Dependency Injection
+  •	Routing & Navigation
+  •	Service Workers
+  •	Pipes
+  •	Gaurds etc..
+
+
 
 ## Development server
 
