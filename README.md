@@ -57,57 +57,59 @@ This Projects covers all fundamentals of Angular
 
 1. Angular CLI
 
- Download Angular CLI
- https://cli.angular.io/
+     Download Angular CLI
+     https://cli.angular.io/
  
-  NodeJs
+ 2. NodeJs
 
-Download Nodejs
-https://nodejs.org/en/download/
+    Download Nodejs
+    https://nodejs.org/en/download/
 
-Package Manager - NPM / Yarn
+  3. Package Manager - NPM / Yarn
 
-Clone the repository and run npm install if you use npm as package manager or yarn install if you use yarn as package manager.
+  4. Clone the repository and run npm install if you use npm as package manager or yarn install if you use yarn as package manager.
 
-Angular + Firebase Tutorial - Angular + Firebase + Typescript — Step by step tutorial
+  5. Angular + Firebase Tutorial - Angular + Firebase + Typescript — Step by step tutorial
 
-Activate Firebase Authentication Providers
+  6. Activate Firebase Authentication Providers
 
-Authentication -> Sign-in-method -> Enable Email/Password & Google provider
+      Authentication -> Sign-in-method -> Enable Email/Password & Google provider
 
-Update the Firebase Database Rules
+  7. Update the Firebase Database Rules
 
-Database -> Rules
+      Database -> Rules
 
-{
-"rules": {
-    ".read":true,
-    ".write": true
-}
-}
-Configure your firebase configuration src/environments/firebaseConfig.ts
+      {
+      "rules": {
+          ".read":true,
+          ".write": true
+      }
+      }
+ 
+ 
+  8. Configure your firebase configuration src/environments/firebaseConfig.ts
 
-export const FireBaseConfig = {
-    apiKey: "YOUR_API_KEY",
-    authDomain: "YOUR_AUTH_DOMAIN",
-    databaseURL: "YOUR_DATABASE_URL",
-    projectId: "YOUR_PROJECT_ID",
-    storageBucket: "YOUR_STORAGE_BUCKET",
-    messagingSenderId: "YOUR_SENDER_ID"
-};
-For Admin Role Register or SignIn with Google Auth
+         export const FireBaseConfig = {
+            apiKey: "YOUR_API_KEY",
+            authDomain: "YOUR_AUTH_DOMAIN",
+            databaseURL: "YOUR_DATABASE_URL",
+            projectId: "YOUR_PROJECT_ID",
+            storageBucket: "YOUR_STORAGE_BUCKET",
+            messagingSenderId: "YOUR_SENDER_ID"
+        };
+  9. For Admin Role Register or SignIn with Google Auth
 
-your registered data will be saved inside the firebase clients table.
+        your registered data will be saved inside the firebase clients table.
 
-    -clients
-        -LRSkWxGAKQAFZmyfsx6
-            -createdOn: "1542046725"
-            -email: "<<YOUR_REGISTERED_EMAIL_ID>>"
-            -isAdmin: false      <--- Change this to true
-            ...
-Now you can able to access the Admin Privileges like Creating Product, Removing Product, etc..
+            -clients
+                -LRSkWxGAKQAFZmyfsx6
+                    -createdOn: "1542046725"
+                    -email: "<<YOUR_REGISTERED_EMAIL_ID>>"
+                    -isAdmin: false      <--- Change this to true
+                    ...
+        Now you can able to access the Admin Privileges like Creating Product, Removing Product, etc..
 
-Run the Server.
+        Run the Server.
 
 
 ## Development server
